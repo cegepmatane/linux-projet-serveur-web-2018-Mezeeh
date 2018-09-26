@@ -29,7 +29,7 @@ $wgMetaNamespace = "WikiTurcotteFils";
 $wgScriptPath = "/mediawiki";
 
 ## The protocol and server name to use in fully-qualified URLs
-$wgServer = "http://vps202433.vps.ovh.ca";
+$wgServer = "http://wiki.turcotte.zonedns.education";
 
 ## The URL path to static resources (images, scripts, etc.)
 $wgResourceBasePath = $wgScriptPath;
@@ -43,8 +43,8 @@ $wgLogo = "$wgResourceBasePath/resources/assets/wiki.png";
 $wgEnableEmail = true;
 $wgEnableUserEmail = true; # UPO
 
-$wgEmergencyContact = "apache@vps202433.vps.ovh.ca";
-$wgPasswordSender = "apache@vps202433.vps.ovh.ca";
+$wgEmergencyContact = "apache@wiki.turcotte.zonedns.education";
+$wgPasswordSender = "apache@wiki.turcotte.zonedns.education";
 
 $wgEnotifUserTalk = false; # UPO
 $wgEnotifWatchlist = false; # UPO
