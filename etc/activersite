@@ -1,0 +1,5 @@
+#!/bin/bash
+# le script est lequivalent de a2ensite
+
+ln -s /etc/apache2/sites-available/* /etc/apache2/sites-enabled/
+service apache2 reload
